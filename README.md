@@ -2,8 +2,8 @@
 CPSC 219 group project for team 16
 CPSC 219_T04_ Team 16 Group Project
 
-to run demo2 only use only the folder labeled demo2Code, still figuring out how to use github properly for updates.
-To run this program, compile code and then run the Class Display.java
+to run previous demo's only use only the folder of that demo and compile its code and then run the Class Display.java
+
 How to run: For the final version of the project, compile all packages and run the class 'Display' found in the 'view' package. 
 
 Updates on the final version of the project
@@ -18,9 +18,10 @@ Updates on the final version of the project
       vi) comment everything using java doc*; 
    - images are declared as final variables 
    - Throw Exception error that do not allow user to enter invalid data and gives user easy to understand/fix error messages
-   - Window pop-up at the end of the game(TA recommended) that says �play again� or �close
+   - Window pop-up at the end of the game(TA recommended) that says play again or close
    - Seperated GUI and Logic classes into view and logic packages
-   - Can save the current state of the game if game is left unfinished and able to load previously saved data 
+   - Can save the current state of the game if game is left unfinished and able to load previously saved data
+      - This is done through pressing the escape key and then choosing save and exit, then running the application again
    - Exceptions are cascaded on the files appropriately
    - Atleast one class runs all the junit methods
    - Make instance variables private, encapsulate and create accessors/mutators 
